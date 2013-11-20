@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="CoffeeScript Debug" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+    <JSRemoteDebuggerConfigurationSettings>
+      <option name="engineId" value="chrome" />
+      <option name="fileUrl" value="http://localhost:3000/" />
+      <mapping local-file="$PROJECT_DIR$/app/assets/javascripts" url="http://localhost:3000/assets" />
+    </JSRemoteDebuggerConfigurationSettings>
+    <RunnerSettings RunnerId="JavascriptDebugRunner" />
+    <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+    <method />
+  </configuration>
+</component>

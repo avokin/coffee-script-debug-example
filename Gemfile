@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.9'
+gem 'rails', '3.2.13'
 gem 'sqlite3'
 
 group :assets do
@@ -12,5 +12,5 @@ end
 gem 'jquery-rails'
 
 group :development do
-  gem "coffee-script-redux-debugger", :git => "git://github.com/JetBrains/coffee-script-redux-debugger.git"
+  gem "intellij-coffee-script-debugger", :git => "git://github.com/avokin/intellij-coffee-script-debugger.git"
 end
