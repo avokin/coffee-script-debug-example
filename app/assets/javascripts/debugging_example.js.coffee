@@ -3,7 +3,7 @@ onButtonClick = ->
 
   b = 1
   c = a + b
-  alert("it works!")
+  alert("it works in coffee!")
 
 $ ->
   $("#button").click onButtonClick

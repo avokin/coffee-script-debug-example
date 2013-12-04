@@ -4,8 +4,12 @@
     <data-source source="LOCAL" name="Rails coffee-script-debug-example: development" uuid="153946b5-e2c5-4af0-be09-42f45936a61a">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Projects\GitHub\coffee-script-debug-example\db\development.sqlite3</jdbc-url>
-      <libraries />
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine40/jdbc-drivers/sqlite-jdbc-3.7.2.jar</url>
+        </library>
+      </libraries>
     </data-source>
   </component>
 </project>
